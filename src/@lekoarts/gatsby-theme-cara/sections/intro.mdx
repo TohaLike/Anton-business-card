@@ -1,0 +1,34 @@
+<div style={{
+   display: 'grid',  
+   gridTemplateColumns: '1fr 1fr', 
+   gridTemplateRow: 'repeat(2, 1fr)',
+   gridGap: 20,
+   alignItems: 'center'
+
+   }}>
+
+   <img style={{
+      display: 'flex', 
+      justifyContent: 'center', 
+      alignItems: 'center'
+   }}
+   srcSet="
+      ./АнтонМалышев.jpg 375px,
+      ./АнтонМалышев.jpg 667px,
+      ./АнтонМалышев.jpg 1200w
+   "
+   sizes="
+      (max-width: 375px) 430px,
+      (max-width: 400px) 530px,
+      (max-width: 667px) 630px,
+      700px
+   "
+   src="./АнтонМалышев.jpg" />
+
+
+   <div>
+      # Антон Малышев, 
+      # Frontend-разработчик
+   </div>
+   
+</div>
