@@ -1,0 +1,13 @@
+.main__info {
+   position: relative;
+   top: -300px;
+   left: -270px;
+   display: grid;
+   grid-template-columns: 1fr 1fr; 
+}
+
+.main__text {
+   width: 800px;
+   margin-top: -29px;
+   margin-left: -200px;
+}

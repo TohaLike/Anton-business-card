@@ -1,34 +1,25 @@
-<div style={{
-   display: 'grid',  
-   gridTemplateColumns: '1fr 1fr', 
-   gridTemplateRow: 'repeat(2, 1fr)',
-   gridGap: 20,
-   alignItems: 'center'
+import './style.css';
+import './adaptive.css';
+import './normalize.css'
 
-   }}>
 
-   <img style={{
-      display: 'flex', 
-      justifyContent: 'center', 
-      alignItems: 'center'
-   }}
-   srcSet="
+<div className="main__info">
+   <img className="main__img" srcSet="
       ./АнтонМалышев.jpg 375px,
       ./АнтонМалышев.jpg 667px,
       ./АнтонМалышев.jpg 1200w
    "
    sizes="
-      (max-width: 375px) 430px,
-      (max-width: 400px) 530px,
-      (max-width: 667px) 630px,
-      700px
+      (max-width: 375px) 380px,
+      (max-width: 400px) 380px,
+      (max-width: 667px) 380px,
+      380px
    "
    src="./АнтонМалышев.jpg" />
 
 
-   <div>
+   <div className="main__text">
       # Антон Малышев, 
-      # Frontend-разработчик
+      ### Frontend-разработчик
    </div>
-   
 </div>
