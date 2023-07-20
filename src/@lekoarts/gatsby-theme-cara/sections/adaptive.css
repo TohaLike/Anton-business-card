@@ -26,8 +26,15 @@
 
 @media (max-width: 390px) {
    .main__info {
-      margin-left: 26px;
+      margin-top: 451px;
+      margin-left: 298px;
       grid-template-columns: 1fr;
+   }
+
+   .main__text {
+      width: 100px;
+      margin-top: 10px;
+      margin-left: 0px;
    }
 }
 
