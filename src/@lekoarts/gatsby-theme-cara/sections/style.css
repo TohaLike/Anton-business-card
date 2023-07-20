@@ -3,11 +3,30 @@
    top: -300px;
    left: -270px;
    display: grid;
-   grid-template-columns: 1fr 1fr; 
+   grid-template-columns: repeat(5, 1fr); 
 }
 
 .main__text {
-   width: 800px;
-   margin-top: -29px;
+   width: 1032px;
+   margin-top: -10px;
    margin-left: -200px;
+}
+
+.user__name {
+   font-size: 64px;
+}
+
+.job__title {
+   font-weight: bold;
+   font-size: 36px;
+}
+
+
+.main__icons {
+   grid-column: 1;
+   grid-row: 2 / 4;
+}
+
+.network__icon {
+   height: 50px; 
 }
