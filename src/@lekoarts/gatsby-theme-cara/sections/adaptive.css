@@ -95,15 +95,14 @@
 
 }
 
-/* @media (max-width: 375px) {
+@media (max-width: 375px) {
    .main__info {
-      margin-top: 649px;
-      margin-left: 290px;
+      margin-top: 0px;
+      margin-left: 10px;
    }
-
-   .main__text {
-      width: 100px;
-      margin-top: -104px;
-      margin-left: 0px;
+   
+   .job__title {      
+      left: -11px;
+      line-height: 1em;
    }
-}  */
+} 
