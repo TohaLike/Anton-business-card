@@ -28,9 +28,10 @@
 }
 */
 
-@media (max-width: 840px) {
+@media (max-width: 850px) {
    .main__info {
-      margin-left: -15px;
+      margin-top: 50px;
+      margin-left: 35px;
       margin-right: 18px;
       background: none;
       border: none;
@@ -51,7 +52,7 @@
    .job__title {      
       margin-top: 189px;
       position: absolute;
-      left: 311px;
+      left: 358px;
       line-height: 1em;
    }
 
