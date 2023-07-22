@@ -57,16 +57,17 @@
    }
 
    .user__name {
-      /* text-indent: 0.03em;  */
+      text-indent: 0.03em; 
+      position: relative;
       line-height: 1em;
       text-align: start;
    }
 
    .job__title {
-      /* font-size: 1.8em; */
+      position: absolute;
+      left: -7px;
       line-height: 1em;
-      margin-top: 240px;
-      margin-left: -314px;
+      margin-top: 260px;
    }
 
    .job__title::before {
@@ -74,7 +75,7 @@
    }
 
    .main__subtitle {
-      margin-top: -24px;      
+      margin-top: 40px;      
       font-size: 30px;
       line-height: 1em;
    }
