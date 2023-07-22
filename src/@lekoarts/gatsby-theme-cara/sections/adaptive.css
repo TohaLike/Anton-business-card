@@ -78,11 +78,14 @@
       font-size: 30px;
       line-height: 1em;
    }
+   
+   p.job__subtitle {
+      width: 330px;
+   }
 
    .main__icons {
       display: flex;
       margin-left: 0;
-      
    }
 
    .network__icon {
@@ -91,7 +94,7 @@
 
 }
 
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
    .main__info {
       margin-top: 649px;
       margin-left: 290px;
@@ -102,4 +105,4 @@
       margin-top: -104px;
       margin-left: 0px;
    }
-} 
+}  */
