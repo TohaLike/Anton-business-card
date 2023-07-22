@@ -26,21 +26,63 @@
       content: "";
    }
 }
+*/
 
 @media (max-width: 840px) {
    .main__info {
-      margin-left: 18px;
-      grid-template-columns: 1fr;
+      margin-left: -15px;
+      margin-right: 18px;
+      background: none;
+      border: none;
    }
-} */
 
+   .main__text {    
+      margin-left: 25px;
+      margin-top: -292px;
+   }
+
+   .user__name {
+      text-indent: 0.03em; 
+      position: relative;
+      line-height: 1em;
+      text-align: start;
+   }
+
+   .job__title {      
+      margin-top: 189px;
+      position: absolute;
+      left: 311px;
+      line-height: 1em;
+   }
+
+   .job__title::before {
+      content: "";
+   }
+
+   .main__subtitle {
+      margin-top: -296px;
+      margin-left: 25px;      
+      font-size: 30px;
+      line-height: 1em;
+   }
+
+   .main__icons {
+      display: flex;
+      margin-top: -53px;
+      margin-left: 26px;
+   }
+
+   .network__icon {
+      margin-right: 25px;
+   }
+} 
 
 @media (max-width: 390px) {
    .main__info {
       margin-top: -160px;
       grid-template-columns: repeat(10, 1fr);
       grid-template-rows: repeat(1, 1fr);
-      margin-left: 15px;
+      margin-left: -15px;
       margin-right: 18px;
       background: none;
       border: none;
@@ -86,13 +128,13 @@
 
    .main__icons {
       display: flex;
-      margin-left: 0;
+      margin-top: 0px;
+      margin-left: 25px;
    }
 
    .network__icon {
       margin-right: 25px;
    }
-
 }
 
 @media (max-width: 375px) {
@@ -106,3 +148,4 @@
       line-height: 1em;
    }
 } 
+
