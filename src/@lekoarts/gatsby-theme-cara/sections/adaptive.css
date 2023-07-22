@@ -63,12 +63,11 @@
       text-align: start;
    }
 
-   .job__title {
+   .job__title {      
+      margin-top: 227px;
       position: absolute;
-      top: 311px;
       left: -7px;
       line-height: 1em;
-      margin-top: 260px;
    }
 
    .job__title::before {
@@ -76,7 +75,7 @@
    }
 
    .main__subtitle {
-      margin-top: 46px;      
+      margin-top: 40px;      
       font-size: 30px;
       line-height: 1em;
    }
