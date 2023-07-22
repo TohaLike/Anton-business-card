@@ -1,39 +1,38 @@
+import scrollHandler from './scrollHandler.tsx';
 import './style.css';
 import './adaptive.css';
-import './normalize.css'
+import './normalize.css';
+
+
 
 
 <div className="main__info">
-   <img className="main__img" srcSet="
-      ./АнтонМалышев.jpg 375px,
-      ./АнтонМалышев.jpg 667px,
-      ./АнтонМалышев.jpg 1200w
-   "
-   sizes="
-      (max-width: 375px) 380px,
-      (max-width: 400px) 380px,
-      (max-width: 667px) 380px,
-      380px
-   "
-   src="./АнтонМалышев.jpg" />
+   <img className="main__img" srcSet="./АнтонМалышев.jpg 375px,./АнтонМалышев.jpg 667px,./АнтонМалышев.jpg 1200w" sizes=" (max-width: 375px) 380px,(max-width: 400px) 380px,(max-width: 667px) 380px,380px "src="./АнтонМалышев.jpg" />
 
-
-   <div className="main__text">
+   <div className="main__text item">
       <h1 className="user__name">Антон Малышев</h1>
       <span className="job__title">Frontend-разработчик</span>
    </div>
 
-   <div className="main__icons">
-      <a href="https://icons8.com/icons/set/network">
-         <img className="instagram__icon network__icon" src="./instagram.svg" alt="instagram" />
-      </a>
-      <a href="https://icons8.com/icons/set/network">
-         <img className="telegram__icon network__icon" src="./telegram.svg" alt="telegram" />
-      </a>
-      <a href="https://icons8.com/icons/set/network">
-         <img className="github__icon network__icon" src="./github.svg" alt="github" />
-      </a>
+   <div className="main__subtitle item">
+      <p className="job__subtitle">Занимаюсь разработкой 
+      веб-приложений и созданием пользовательских интерфейсов</p>
    </div>
 
-   
+   <div className="main__icons item">
+      <a href="https://instagram.com/death__devil.7?igshid=MjEwN2IyYWYwYw==" target="_blank">
+         <img className="instagram__icon network__icon" src="./instagram.svg" alt="instagram" />
+      </a>
+      <a href="https://t.me/smokeonthetower" target="_blank">
+         <img className="telegram__icon network__icon" src="./telegram.svg" alt="telegram" />
+      </a>
+      <a href="https://github.com/TohaLike" target="_blank">
+         <img className="github__icon network__icon" src="./github.svg" alt="github" />
+      </a>
+      <a href="https://twitter.com/toha__like766" target="_blank">
+         <img className="twitter__icon network__icon" src="./twitter.svg" alt="twitter" />
+      </a>
+   </div> 
 </div>
+
+

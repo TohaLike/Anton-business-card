@@ -1,20 +1,8 @@
-@media (max-width: 1920px) {
+/* @media (max-width: 1920px) {
    .main__info {
       margin-top: 200px;
    }
 
-   .main__text {
-      display: flex;
-      align-items: center;
-      width: 1032px;
-      margin-top: -367px;
-      margin-left: 70px;
-   }
-
-   .job__title {
-      margin-left: 45px;
-      margin-top: 22px;
-   }
 
    .job__title::before {
       content: "|";
@@ -26,21 +14,10 @@
       width: 2px;
    }
 
-   .main__icons {
-      grid-template-columns: 2fr;
 
-   }
-   
-   
 }
 
-@media (max-height: 590px) {
-   .main__info {
-      margin-top: 200px;
-   }
-}
-
-@media (max-width: 1600px) {
+/* @media (max-width: 1600px) {
    .main__info {
       margin-left: auto;
    }
@@ -50,39 +27,80 @@
    }
 }
 
-
 @media (max-width: 840px) {
    .main__info {
       margin-left: 18px;
       grid-template-columns: 1fr;
    }
-}
+} */
+
 
 @media (max-width: 390px) {
    .main__info {
-      margin-top: 510px;
-      margin-left: 298px;
-      grid-template-columns: 1fr;
+      margin-top: -160px;
+      grid-template-columns: repeat(10, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      margin-left: 15px;
+      margin-right: 18px;
+      background: none;
+      border: none;
    }
 
-   .main__text {
-      width: 100px;
-      margin-top: -84px;
-      margin-left: 0px;
+   .item {
+      margin-top: 20px;
+   }
+
+   .main__text {    
+      grid-column: 1 / 10;
+      grid-row: 1;
+      margin-top: 550px;
+   }
+
+   .user__name {
+      text-indent: 0.03em; 
+      line-height: 1em;
+      text-align: start;
    }
 
    .job__title {
-      width: 100px;
-      margin-top: 280px;
-      margin-left: -311px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      font-size: 1.8em;
+      line-height: 1em;
+      margin-top: 240px;
+      margin-left: -316px;
    }
+
+   .job__title::before {
+      content: "";
+   }
+
+   .main__subtitle {
+      margin-top: 0;      
+      font-size: 30px;
+      line-height: 1em;
+   }
+   
+   p.job__subtitle {
+      width: 330px;
+   }
+
+   .main__icons {
+      display: flex;
+      margin-left: 0;
+      
+   }
+
+   .network__icon {
+      margin-right: 25px;
+   }
+
 }
 
 @media (max-width: 375px) {
    .main__info {
       margin-top: 649px;
       margin-left: 290px;
-      grid-template-columns: 1fr;
    }
 
    .main__text {
@@ -90,4 +108,4 @@
       margin-top: -104px;
       margin-left: 0px;
    }
-}
+} 
