@@ -78,10 +78,6 @@
       font-size: 30px;
       line-height: 1em;
    }
-   
-   p.job__subtitle {
-      width: 330px;
-   }
 
    .main__icons {
       display: flex;
