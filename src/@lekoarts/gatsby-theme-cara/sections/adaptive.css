@@ -65,6 +65,7 @@
 
    .job__title {
       position: absolute;
+      top: 311px;
       left: -7px;
       line-height: 1em;
       margin-top: 260px;
@@ -75,7 +76,7 @@
    }
 
    .main__subtitle {
-      margin-top: 40px;      
+      margin-top: 46px;      
       font-size: 30px;
       line-height: 1em;
    }
