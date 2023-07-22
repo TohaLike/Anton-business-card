@@ -63,8 +63,6 @@
    }
 
    .job__title {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
       font-size: 1.8em;
       line-height: 1em;
       margin-top: 240px;
