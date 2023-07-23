@@ -1,32 +1,86 @@
-/* @media (max-width: 1920px) {
-   .main__info {
-      margin-top: 200px;
-   }
-
-
-   .job__title::before {
-      content: "|";
-      display: block;
-      margin-left: -28px;
-      margin-right: 20px;
-      margin-top: -7px;
-      height: 4px;
-      width: 2px;
-   }
-
-
+@media (max-width: 1900px) {
+    .main__info {
+        margin-top: 0px;
+        margin-left: -267px;
+        margin-right: -267px;
+    }
 }
 
-/* @media (max-width: 1600px) {
-   .main__info {
-      margin-left: auto;
-   }
+@media (max-width: 1620px) {
+    .main__info {
+        margin-top: 0;
+        margin-left: -267px;
+        margin-right: -267px;
+    }
+    
+    .main__text {
+        margin-left: 40px;
+    }
 
-   .job__title::before {
-      content: "";
-   }
+    .main__subtitle {
+        margin-left: 40px
+    }
+
+    .main__icons {
+        margin-left: 40px;
+    }
+} 
+
+@media (max-width: 1599px) {
+    .main__info {
+        margin-top: -60px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+} 
+
+@media (max-width: 1599px) {
+    .main__info {
+        margin-top: -60px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+} 
+
+/* ///////////////////////////////////////////////////////////////////////////////// */
+@media (max-width: 1457px) {
+    .main__info {
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        margin-top: 50px;
+        margin-left: 35px;
+        margin-right: 18px;
+    }
+
+    .job__title {
+        margin-top: 150px;
+        position: absolute;
+        left: 408px;
+        line-height: 1em;
+    }
+
+    .job__title::before {
+        content: "";
+    }
+
+    .main__text {
+        grid-column: 2 / 10;
+        grid-row: 1;
+    }
+
+    .main__subtitle {
+        grid-column: 2 / 11;
+        margin-top: -455px;
+        margin-left: 40px;
+        font-size: 30px;
+        line-height: 1em;
+    }
+
+    .main__icons {
+        margin-top: -260px;
+    }
 }
-*/
+
 
 @media (max-width: 850px) {
     .main__info {
@@ -78,6 +132,8 @@
     }
 }
 
+
+/* iphone XR */
 @media (max-width: 414px) {
     .main__info {
         margin-top: -160px;
@@ -138,7 +194,8 @@
     }
 }
 
-@media (max-width: 390px) {
+/* iphone 12 - 14 pro */
+@media (max-width: 395px) {
     .main__info {
         margin-top: -160px;
         grid-template-columns: repeat(10, 1fr);
@@ -198,6 +255,8 @@
     }
 }
 
+
+/* iphone SE, 6-7 */
 @media (max-width: 375px) {
     .main__info {
         margin-left: -18px;
@@ -206,6 +265,19 @@
 
     .job__title {
         left: -11px;
+        line-height: 1em;
+    }
+}
+
+/* Galaxy S8 */
+@media (max-width: 365px) {
+    .main__info {
+        margin-left: -30px;
+        margin-top: -63px;
+    }
+
+    .job__title {
+        left: -24px;
         line-height: 1em;
     }
 }
