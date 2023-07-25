@@ -2,8 +2,6 @@
    margin-top: -400px;
    margin-left: -267px;
    margin-right: -267px;
-   background-color: #1e1e1ef3;
-   border: 2px solid #000000;
    padding: 10px;
    border-radius: 10px;
    display: grid;
@@ -16,6 +14,7 @@
    display: flex;
    align-items: center;
    margin-top: -360px;
+   margin-left: 40px;
    grid-column: 2 / 10;
 }
 
@@ -34,9 +33,9 @@
 .job__title::before {
    content: "|";
    display: block;
-   margin-left: -28px;
    margin-right: 20px;
    margin-top: -7px;
+   margin-left: -28px;
    height: 4px;
    width: 2px;
 }
@@ -45,11 +44,13 @@
    font-size: 25px;   
    font-weight: bold;   
    margin-top: -550px;
+   margin-left: 40px;
    grid-column: 2 / 10;
 }
 
 .main__icons {
    margin-top: -350px;
+   margin-left: 40px;
    grid-column: 2;
    grid-column-end: 9;
 }
